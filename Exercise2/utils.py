@@ -83,7 +83,7 @@ def plotDecisionBoundary(plotData, theta, X, y):
         pyplot.plot(plot_x, plot_y)
 
         # Legend, specific for the exercise
-        pyplot.legend(['Admitted', 'Not admitted', 'Decision Boundary'])
+        pyplot.legend(['Decision Boundary', 'Admitted', 'Not admitted'])
         pyplot.xlim([30, 100])
         pyplot.ylim([30, 100])
     else:
